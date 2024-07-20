@@ -7,6 +7,7 @@ conclure un troc.</p>
 <li> Déposer gratuitement des annonces.</li>
 <li>Trouver rapidement des annonces de troc en effectuant des
 recherches.</li>
+<li>Favoriser , commenter , signaler une annonce</li>
 <li>Consulter les différentes catégories d’objets.</li>
 <li>Consulter les informations sur les annonces.</li>
 <li>L’échange des messages entre troqueurs.</li>
