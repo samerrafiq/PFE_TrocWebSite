@@ -1,0 +1,18 @@
+++++++++++++++++++++++++ Comptes administrateurs ++++++++++++++++++++++++++
+
+email : samerrafik4@gmail.com
+mot de passe : 1234567
+			-----------------------------------------
+email : yassirhakkou@gmail.com
+mot de passe : 1234567
+
+
+
+++++++++++++++++++++++++ Comptes troqueurs ++++++++++++++++++++++++++
+
+email : Yassir@gmail.fr
+mot de passe : 1234567
+			-----------------------------------------
+email : samerrafik@gmail.com
+mot de passe : 1234567
+			-----------------------------------------

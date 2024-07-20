@@ -1,0 +1,53 @@
+table {
+  border-collapse: collapse;
+  box-shadow: 5px 5px 5px 5px #a7bad3;
+  background-color: white;
+  text-align: left;
+  border-radius: 10px;
+  }
+  th{
+    background-color: #d0def2;
+    padding: 0.75rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+  td {
+    font-size: 14px;
+    padding: 1rem 1rem;
+    font-family:arial;
+  }
+  tr:nth-child(even) {
+    background-color: #f3f8fe;
+  }
+  .Mod{
+    border-radius: 10px;
+    background-color: #32CD32;
+    padding: 8px;
+    color: white;
+    border-color: #32CD32;
+    cursor: pointer;
+  }
+  .Sup{
+    border-radius: 10px;
+    background-color: red;
+    padding: 8px;
+    color: white;
+    border-color: red;
+    cursor: pointer;
+  }
+  .Ajt{
+    border-radius: 10px;
+    background-color: #6A5ACD;
+    padding: 10px;
+    color: white;
+    border-color: #6A5ACD;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+.All{
+	margin-left: 30px;
+	margin-top: 60px
+}
+ 

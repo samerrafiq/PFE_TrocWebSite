@@ -1,0 +1,179 @@
+
+/********************************************* main-section *************************************************/
+.main-section {
+	display: flex;
+    align-items: center;
+	background-position: center;
+	background: linear-gradient(rgba(5, 5, 5, 0.5), rgba(5, 5, 5, 0.1)), url(../images/Site-Web/bg-3.jpg) no-repeat center center fixed;
+	background-size: cover;
+	justify-content: center;
+}
+/********************************************* main-section *************************************************/
+
+/********************************************* Header *************************************************/
+header {
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	z-index: 999;
+	padding: 0 100px;
+	background-color: #232a34;
+	position: fixed;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(0, 155, 252);
+	font-weight: 800;
+}
+
+header ul {
+	list-style: none;
+	display: inline-flex;
+}
+
+header li {
+	margin-left: 40px;
+}
+
+.contact a {
+	border: 1px solid white;
+	padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.contact a:hover {
+	background-color: #2b3644;
+}
+
+a[href="login.php"] {
+	color: white;
+}
+
+header nav a, footer a {
+	color: rgba(255, 255, 255, 0.8);
+	font-weight: 500;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+header nav a:hover, footer a:hover {
+	color: white;
+}
+/********************************************* Header *************************************************/
+
+/********************************************* Card-login *************************************************/
+.swap-connexion {
+    display: flex;
+    width: 450px;
+    margin-top: -30px;
+    margin-left: -70px;
+    margin-bottom: 10px;
+}
+
+button[name="connecte"], button[name="registre"] {
+    width: 50%;
+    height: 60px;
+    border: 0;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    font-size: medium;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.connexion-card {
+    padding: 30px 70px;
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(10, 10, 10, 0.4);
+    justify-content: center;
+    width: 450px;
+    border-radius: 10px;
+    Position: absolute;
+    top: 20%;
+}
+
+button[name="connecte"] {
+    color: white;
+    background-color: #232a34;
+}
+
+button[name="registre"] {
+    background-color: white;
+    color: black;
+}
+
+#form-register {
+    display: none;
+}
+
+#form-connecte {
+    display: flex;
+}
+
+form .input-2 {
+    width: 310px;
+    margin-bottom: 10px;
+}
+
+form a {
+    color: rgb(0, 155, 252);
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+.input-2 input {
+    font-size: 15px;
+    outline: none;
+    border: 2px rgba(160, 160, 160, 0.6) solid;
+	background: white;
+	display: flex;
+	align-items: center;
+    padding: 0 20px;
+    height: 45px;
+    width: 100%;
+    transition: 0.2s ease;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+/*.input-2 input:focus {
+    border: rgba(0, 155, 255, 0.6) solid 2px;
+}*/
+
+.input-2 button {
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+	font-size: 18px;
+    border: 0;
+	background: rgb(0, 155, 252);
+	cursor: pointer;
+	color: white;
+	align-items: center;
+	display: flex;
+	text-align: center;
+    margin-top: 20px;
+}
+
+.input-2 button:hover {
+    background: rgb(0, 98, 255);
+}
+
+.error h4 {
+    color: rgba(255, 0, 0);
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: none;
+}
+/********************************************* Card-login *************************************************/

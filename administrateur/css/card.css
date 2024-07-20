@@ -1,0 +1,45 @@
+.CardContainer{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card{
+	background-color: #ADD8E6;
+	width: 270px;
+	height: 120px;
+	margin:20px;
+	border-radius: 15px;
+	border: 3px;
+}
+.card h2{
+	padding: 10px;
+	text-align: center;
+}
+.card a {
+	background-color: #564FCC;
+	color: white ;
+	padding: 11px;
+	width: 500px;
+	border-radius: 15px;
+	margin-left: 120px;
+	text-decoration: none;
+}
+.card:hover{
+	color: white;
+	background-color: #20B2AA;
+	cursor: pointer;
+	transform: scale(1.03);
+}
+#FormAjouter{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  display: none;
+  padding: 25px 30px;
+  margin-top: -200px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  position: absolute;
+  margin-left: 400px;
+}

@@ -1,0 +1,212 @@
+/********************************************* main-section *************************************************/
+.main-section, .comment-section {
+	width: 100%;
+	padding: 20px 200px;
+}
+
+.comment-section {
+	min-height: 50vh;
+}
+
+.titles {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 8%;
+	margin-bottom: 20px;
+	align-items: center;
+}
+
+.titles h1 {
+	font-weight: 500;
+	font-size: 25px;
+	color: #232a34;
+}
+
+.infos {
+	display: flex;
+	/*width: 100%;*/
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.infos hr {
+	margin-top: 50px;
+	margin-bottom: 10px;
+	color: 2px rgba(160, 160, 160, 0.6) solid;
+}
+
+.send-message {
+	margin-top: 20px;
+	width: 15%;
+	padding: 5px;
+	background-color: rgb(0, 98, 255);
+	display: flex;
+	align-items: center;
+	/*box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);*/
+	border-radius: 10px;
+	text-align: center;
+}
+
+.send-message h2 {
+	font-weight: 500;
+	font-size: 15px;
+	text-align: center;
+}
+
+.send-message h2 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.txt {
+	width: 80%;
+}
+
+.txt div {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.txt h2 {
+	font-weight: 400;
+	font-size: 20px;
+	color: #232a34;
+	margin-bottom: 10px;
+}
+
+.annonce-images {
+	padding: 0;
+	display: flex;
+	width: 100%;
+	height: 450px;
+	border-radius: 10px;
+	position: relative;
+}
+
+#curent-image {
+	border-radius: 20px;
+	width: 100%;
+}
+
+.swapers {
+	top: 50%;
+	position: absolute;
+	width: 100%;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#change-image-next {
+	/*position: absolute;*/
+	/*right: 220px;
+	top: 350px;*/
+	cursor: pointer;
+	/*background-color: white;*/
+	border-radius: 20px;
+}
+
+#change-image-prev {
+	/*position: absolute;
+	left: 220px;
+	top: 350px;*/
+	cursor: pointer;
+	/*background-color: white;*/
+	border-radius: 20px;
+}
+
+#button-supprimer, #button-signaler, #button-désignaler {
+	background: white;
+	border: none;
+	cursor: pointer;
+	padding-top: 10px;
+}
+/********************************************* main-section *************************************************/
+
+/********************************************* comment-section *************************************************/
+.contentcomment {
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	border: 2px rgba(160, 160, 160, 0.5) solid;
+	border-radius: 10px;
+	padding: 5px 20px;
+	outline: none;
+	resize: none;
+}
+
+.buttoncomment {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 35px;
+	width: 100px;
+	padding: 0 10px;
+	margin-top: 5px;
+	cursor: pointer;
+	border: 0;
+	background: rgb(0, 155, 252);
+	border-radius: 5px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.buttoncomment:hover {
+	background: rgb(0, 98, 255);
+}
+
+.commentaire {
+	width: 100%;
+	border-radius: 10px;
+	background: rgba(180, 180, 180, 0.2);
+	padding: 10px 20px;
+	position: relative;
+}
+
+.profilecomment {
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.profilecomment img {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 10px;
+}
+
+.contentcmnt {
+	font-size: 14px;
+	overflow-wrap: break-word;
+}
+
+.infos-cmnt {
+	display: flex;
+	justify-content: space-between;
+}
+
+button[name="message"] {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 35px;
+	width: 100px;
+	padding: 0 10px;
+	cursor: pointer;
+	border: 0;
+	background: rgb(0, 155, 252);
+	border-radius: 5px;
+	font-weight: 400;
+	color: #fff;
+}
+/********************************************* comment-Section *************************************************/
+
+/********************************************* Footer *************************************************/
+#text {
+	color: rgb(0, 155, 252);
+	font-size: 4.3em;
+	font-weight: bold;
+}
+/********************************************* Footer *************************************************/
